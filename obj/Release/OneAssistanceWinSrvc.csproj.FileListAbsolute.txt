@@ -1,0 +1,9 @@
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\bin\Release\OneAssistanceSrvc.exe.config
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\bin\Release\OneAssistanceSrvc.exe
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\bin\Release\MySql.Data.dll
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceWinSrvc.csprojResolveAssemblyReference.cache
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceSrvc.DoCheckUp.resources
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceSrvc.ParamsWin.resources
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceSrvc.ProjectInstaller.resources
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceWinSrvc.csproj.GenerateResource.Cache
+D:\JRAD Technologies\Biznet\OneAssistanceWinSrvc\obj\Release\OneAssistanceSrvc.exe
