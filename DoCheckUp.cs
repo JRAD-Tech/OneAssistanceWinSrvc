@@ -279,16 +279,18 @@ namespace OneAssistanceSrvc
         private void LoadEmails(MySqlCommand cmd)
         {
             users = new ArrayList();
-            users.Add(new User("Kytzia Moreno", "kytziam@yahoo.com"));
-            users.Add(new User("Disraely Santos", "disraelysn@hotmail.com"));
-            users.Add(new User("Adán Mercado", "adan.mercado.n@gmail.com"));
-            /*cmd.CommandText = "Select concat(cust_names, ' ', cust_first_name), cust_email from customer";
+            //users.Add(new User("Kytzia Moreno", "kytziam@yahoo.com"));
+            //users.Add(new User("Disraely Santos", "disraelysn@hotmail.com"));
+            users.Add(new User("Ma. Estela Valdes", "meve.valdes@gmail.com"));
+            users.Add(new User("Mario Villafaña", "mvillafana@impulso-mexicano.com"));
+            users.Add(new User("Adán Mercado", "amercado@impulso-tm.com"));
+            cmd.CommandText = "Select concat(cust_names, ' ', cust_first_name), cust_email from customer";
             MySqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
                 users.Add(new User(dr.GetString(0), dr.GetString(1)));
             }
-            dr.Close();*/
+            dr.Close();
         }
 
         class User
@@ -308,11 +310,11 @@ namespace OneAssistanceSrvc
             try
             {
                 _conn = new MySqlConnection(
-                    "Server=50.31.26.152;Database=biznet;Uid=root;Pwd=vacar00;Pooling=false;Charset=utf8;");
+                    "Server=10.2.2.212;Database=biznet;Uid=root;Pwd=vacar00;Pooling=false;Charset=utf8;");
                 _conn.Open();
                 connOpen = true;
                 updConn = new MySqlConnection(
-                    "Server=50.31.26.152;Database=biznet;Uid=root;Pwd=vacar00;Pooling=false;Charset=utf8;");
+                    "Server=10.2.2.212;Database=biznet;Uid=root;Pwd=vacar00;Pooling=false;Charset=utf8;");
                 updConn.Open();
                 return true;
             }
